@@ -9,7 +9,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Spiriit\CommitHistory\Provider\Github;
+namespace Lotimopa\CommitHistory\Provider\Github;
 
 use Spiriit\CommitHistory\DTO\Commit;
 use Spiriit\CommitHistory\Provider\CommitParserInterface;

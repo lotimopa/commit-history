@@ -9,7 +9,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Spiriit\CommitHistory\Tests\Unit\DiffParser;
+namespace Lotimopa\CommitHistory\Tests\Unit\DiffParser;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;

@@ -1,5 +1,5 @@
 {
-    "name": "spiriitlabs/commit-history",
+    "name": "lotimopa/commit-history",
     "description": "Fetch commit history from GitLab or GitHub repositories",
     "type": "library",
     "license": "MIT",

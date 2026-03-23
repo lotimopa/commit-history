@@ -9,7 +9,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Spiriit\CommitHistory\DiffParser;
+namespace Lotimopa\CommitHistory\DiffParser;
 
 use Spiriit\CommitHistory\DTO\DependencyChange;
 

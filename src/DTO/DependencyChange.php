@@ -9,7 +9,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Spiriit\CommitHistory\DTO;
+namespace Lotimopa\CommitHistory\DTO;
 
 readonly class DependencyChange
 {
