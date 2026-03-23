@@ -14,8 +14,8 @@ namespace Lotimopa\CommitHistory\Tests\Unit\DiffParser;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Spiriit\CommitHistory\DiffParser\PackageDiffParser;
-use Spiriit\CommitHistory\DTO\DependencyChange;
+use Lotimopa\CommitHistory\DiffParser\PackageDiffParser;
+use Lotimopa\CommitHistory\DTO\DependencyChange;
 
 #[CoversClass(PackageDiffParser::class)]
 class PackageDiffParserTest extends TestCase

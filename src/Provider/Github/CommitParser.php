@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Provider\Github;
 
-use Spiriit\CommitHistory\DTO\Commit;
-use Spiriit\CommitHistory\Provider\CommitParserInterface;
+use Lotimopa\CommitHistory\DTO\Commit;
+use Lotimopa\CommitHistory\Provider\CommitParserInterface;
 
 class CommitParser implements CommitParserInterface
 {
@@ -33,7 +33,7 @@ class CommitParser implements CommitParserInterface
             author: (string) ($authorData['name'] ?? ''),
             url: (string) ($data['html_url'] ?? ''),
             authorEmail: $authorData['email'] ?? null,
-            message: $message !== '' ? $message : null,
+            message: '' !== $message ? $message : null,
         );
     }
 

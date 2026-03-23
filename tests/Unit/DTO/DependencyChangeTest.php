@@ -13,7 +13,7 @@ namespace Lotimopa\CommitHistory\Tests\Unit\DTO;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Spiriit\CommitHistory\DTO\DependencyChange;
+use Lotimopa\CommitHistory\DTO\DependencyChange;
 
 #[CoversClass(DependencyChange::class)]
 class DependencyChangeTest extends TestCase

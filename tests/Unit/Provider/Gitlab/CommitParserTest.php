@@ -13,7 +13,7 @@ namespace Lotimopa\CommitHistory\Tests\Unit\Provider\Gitlab;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Spiriit\CommitHistory\Provider\Gitlab\CommitParser;
+use Lotimopa\CommitHistory\Provider\Gitlab\CommitParser;
 
 #[CoversClass(CommitParser::class)]
 class CommitParserTest extends TestCase

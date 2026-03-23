@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Service;
 
-use Spiriit\CommitHistory\DTO\Commit;
-use Spiriit\CommitHistory\Provider\ProviderInterface;
+use Lotimopa\CommitHistory\DTO\Commit;
+use Lotimopa\CommitHistory\Provider\ProviderInterface;
 
 class FeedFetcher implements FeedFetcherInterface
 {

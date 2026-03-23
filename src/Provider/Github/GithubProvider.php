@@ -11,10 +11,10 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Provider\Github;
 
-use Spiriit\CommitHistory\Contract\HttpClientInterface;
-use Spiriit\CommitHistory\DTO\Commit;
-use Spiriit\CommitHistory\Provider\CommitParserInterface;
-use Spiriit\CommitHistory\Provider\ProviderInterface;
+use Lotimopa\CommitHistory\Contract\HttpClientInterface;
+use Lotimopa\CommitHistory\DTO\Commit;
+use Lotimopa\CommitHistory\Provider\CommitParserInterface;
+use Lotimopa\CommitHistory\Provider\ProviderInterface;
 
 class GithubProvider implements ProviderInterface
 {

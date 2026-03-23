@@ -25,10 +25,10 @@ composer require spiriitlabs/commit-history
 ### Basic Setup with GitHub
 
 ```php
-use Spiriit\CommitHistory\Contract\HttpClientInterface;
-use Spiriit\CommitHistory\Provider\Github\GithubProvider;
-use Spiriit\CommitHistory\Provider\Github\CommitParser;
-use Spiriit\CommitHistory\Service\FeedFetcher;
+use Lotimopa\CommitHistory\Contract\HttpClientInterface;
+use Lotimopa\CommitHistory\Provider\Github\GithubProvider;
+use Lotimopa\CommitHistory\Provider\Github\CommitParser;
+use Lotimopa\CommitHistory\Service\FeedFetcher;
 
 // Implement the HttpClientInterface (see Contracts section below)
 $httpClient = new MyHttpClient();
@@ -66,8 +66,8 @@ foreach ($commits as $commit) {
 ### Using GitLab
 
 ```php
-use Spiriit\CommitHistory\Provider\Gitlab\GitlabProvider;
-use Spiriit\CommitHistory\Provider\Gitlab\CommitParser;
+use Lotimopa\CommitHistory\Provider\Gitlab\GitlabProvider;
+use Lotimopa\CommitHistory\Provider\Gitlab\CommitParser;
 
 $provider = new GitlabProvider(
     httpClient: $httpClient,
@@ -84,7 +84,7 @@ $provider = new GitlabProvider(
 Enable dependency detection to flag commits that modify dependency files:
 
 ```php
-use Spiriit\CommitHistory\Service\DependencyDetectionService;
+use Lotimopa\CommitHistory\Service\DependencyDetectionService;
 
 $dependencyService = new DependencyDetectionService(
     provider: $provider,
@@ -136,7 +136,7 @@ interface HttpClientInterface
 Example implementation using Guzzle:
 
 ```php
-use Spiriit\CommitHistory\Contract\HttpClientInterface;
+use Lotimopa\CommitHistory\Contract\HttpClientInterface;
 use GuzzleHttp\Client;
 
 class GuzzleHttpClient implements HttpClientInterface
@@ -183,9 +183,9 @@ class GuzzleHttpClient implements HttpClientInterface
 2. Create a provider implementing `ProviderInterface`
 
 ```php
-use Spiriit\CommitHistory\Provider\ProviderInterface;
-use Spiriit\CommitHistory\Provider\CommitParserInterface;
-use Spiriit\CommitHistory\DTO\Commit;
+use Lotimopa\CommitHistory\Provider\ProviderInterface;
+use Lotimopa\CommitHistory\Provider\CommitParserInterface;
+use Lotimopa\CommitHistory\DTO\Commit;
 
 class BitbucketCommitParser implements CommitParserInterface
 {

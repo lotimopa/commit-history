@@ -13,7 +13,7 @@ namespace Lotimopa\CommitHistory\Tests\Unit\DTO;
 
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Spiriit\CommitHistory\DTO\Commit;
+use Lotimopa\CommitHistory\DTO\Commit;
 
 #[CoversClass(Commit::class)]
 class CommitTest extends TestCase

@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Provider\Gitlab;
 
-use Spiriit\CommitHistory\DTO\Commit;
-use Spiriit\CommitHistory\Provider\CommitParserInterface;
+use Lotimopa\CommitHistory\DTO\Commit;
+use Lotimopa\CommitHistory\Provider\CommitParserInterface;
 
 class CommitParser implements CommitParserInterface
 {

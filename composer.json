@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spiriit\\CommitHistory\\": "src/"
+            "Lotimopa\\CommitHistory\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spiriit\\CommitHistory\\Tests\\": "tests/"
+            "Lotimopa\\CommitHistory\\Tests\\": "tests/"
         }
     },
     "config": {

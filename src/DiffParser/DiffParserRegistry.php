@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\DiffParser;
 
-use Spiriit\CommitHistory\DTO\DependencyChange;
+use Lotimopa\CommitHistory\DTO\DependencyChange;
 
 class DiffParserRegistry
 {
