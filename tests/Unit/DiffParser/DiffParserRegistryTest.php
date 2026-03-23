@@ -162,7 +162,7 @@ class DiffParserRegistryTest extends TestCase
 
         $composerParser = $this->createMock(DiffParserInterface::class);
         $composerParser->method('supports')
-            ->willReturnCallback(fn (string $f) => 'composer.json' === $f);
+            ->willReturnCallback(static fn (string $f) => 'composer.json' === $f);
         $composerParser->method('parse')
             ->willReturn([$composerChange]);
 
