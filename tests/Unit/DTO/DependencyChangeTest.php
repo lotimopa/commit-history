@@ -11,9 +11,9 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Tests\Unit\DTO;
 
+use Lotimopa\CommitHistory\DTO\DependencyChange;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Lotimopa\CommitHistory\DTO\DependencyChange;
 
 #[CoversClass(DependencyChange::class)]
 class DependencyChangeTest extends TestCase

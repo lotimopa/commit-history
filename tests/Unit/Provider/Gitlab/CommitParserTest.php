@@ -11,9 +11,9 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Tests\Unit\Provider\Gitlab;
 
+use Lotimopa\CommitHistory\Provider\Gitlab\CommitParser;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use Lotimopa\CommitHistory\Provider\Gitlab\CommitParser;
 
 #[CoversClass(CommitParser::class)]
 class CommitParserTest extends TestCase

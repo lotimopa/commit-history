@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Tests\Unit\DiffParser;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use Lotimopa\CommitHistory\DiffParser\DiffParserInterface;
 use Lotimopa\CommitHistory\DiffParser\DiffParserRegistry;
 use Lotimopa\CommitHistory\DTO\DependencyChange;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(DiffParserRegistry::class)]
 class DiffParserRegistryTest extends TestCase

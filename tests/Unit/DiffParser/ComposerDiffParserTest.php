@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Lotimopa\CommitHistory\Tests\Unit\DiffParser;
 
+use Lotimopa\CommitHistory\DiffParser\ComposerDiffParser;
+use Lotimopa\CommitHistory\DTO\DependencyChange;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use Lotimopa\CommitHistory\DiffParser\ComposerDiffParser;
-use Lotimopa\CommitHistory\DTO\DependencyChange;
 
 #[CoversClass(ComposerDiffParser::class)]
 class ComposerDiffParserTest extends TestCase
